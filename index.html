@@ -8,32 +8,107 @@
 	<!-- 告知浏览器以最新模式渲染页面，IE,chrome -->
 	<meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
 	<!-- 移动端，适应设备宽度，初始缩放比例 -->
-	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<meta name="viewport" content="width=device-width, initial-scale=1,user-scalable=no">
 	<!-- bootstrap框架规定，以上三个标签必须放在前面，任何其他内容必须跟随其后 -->
 	<!-- 网站关键字 -->
 	<meta name="keywords" content="田勇,博客,前端">
 	<!-- 网站内容描述 -->
 	<meta name="description" content="热爱互联网,热爱前端和编程,这是我的博客">
 	<!-- 网站制作者 -->
-	<meta name="author" content="tianyong,web.colin404@gmail.com">
+	<meta name="author" content="田勇,web.colin404@gmail.com">
 	<title>tianyong's nest</title>
 	<!-- bootstrap -->
 	<link rel="stylesheet" href="bootstrap-3.3.7-dist/css/bootstrap.min.css">
 	<link rel="stylesheet" href="css/style.css">
-	<!-- 使 IE8 支持 HTML5 -->
-	<!--[if it IE 9]>
-		<script src="https://cdn.bootcss.com/html5shiv/3.7.3/html5shiv.min.js"></script>
-		<script src="https://cdn.bootcss.com/html5shiv/1.4.2/respond.min.js"></script>
-	<![endif]-->
+	<!--[if lt IE 9]>
+      <script src="https://cdn.bootcss.com/html5shiv/3.7.3/html5shiv.min.js"></script>
+      <script src="https://cdn.bootcss.com/respond.js/1.4.2/respond.min.js"></script>
+    <![endif]-->
 </head>
 <body>
-	<div class="h1">welcome to my blog</div>
-	<blockquote>
-  		<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer posuere erat a ante.</p>
-	</blockquote>
-	<div class="glyphicon glyphicon-home
-"></div>
+	<div class="container">
+		<div class="row">
+			<div class="left_wrap col-md-3 col-xs-12">
+				<div class="head_information row">
+					<img id="head_image" src="images/head1.png" alt="头像">
+					<span id="name" class="col-xs-12 col-md-12 text-center text_color_y">田勇</span>
+					<span id="motto" class="col-xs-12 col-md-12 text-center text_color_w">Web前端开发</span>
+				</div>
+				<div class="personal_information row">
+					<ul>
+						<li><span class="text_color_y">毕业院校</span><span class="text_color_w">辽宁科技大学</span></li>
+						<li><span class="text_color_y">专业</span><span class="text_color_w">无机非金属材料工程</span></li>
+						<li><span class="text_color_y">籍贯</span><span class="text_color_w">贵州省遵义市</span></li>
+						<li><span class="text_color_y">电话</span><span class="text_color_w">17621768426</span></li>
+						<li><span class="text_color_y">邮箱</span><span class="text_color_w">web.colin404@gmail.com</span></li>
+						<li><span class="text_color_y">出生日期</span><span class="text_color_w">1994.12.7</span></li>
+					</ul>
+				</div>
+				<div class="skills row">
+					<span class="skill_title text_color_y">我擅长的</span>
+					<ul>
+						<li><span>HTML/CSS</span><div class="progress"><div class="progress-bar html_skill" role="progressbar" aria-valuenow="80" aria-valuemin="0" aria-valuemax="100"></div></div></li>
+						<li><span>Js/Jquery</span><div class="progress"><div class="progress-bar js_skill" role="progressbar" aria-valuenow="70" aria-valuemin="0" aria-valuemax="100"></div></div></li>
+						<li><span>Bootstrap</span><div class="progress"><div class="progress-bar bs_skill" role="progressbar" aria-valuenow="50" aria-valuemin="0" aria-valuemax="100"></div></div></li>
+						<li><span>Photoshop</span><div class="progress"><div class="progress-bar ps_skill" role="progressbar" aria-valuenow="80" aria-valuemin="0" aria-valuemax="100"></div></div></li>
+						<li><span>PHP</span><div class="progress"><div class="progress-bar php_skill" role="progressbar" aria-valuenow="60" aria-valuemin="0" aria-valuemax="100"></div></div></li>
+						<li><span>Mysql</span><div class="progress"><div class="progress-bar mysql_skill" role="progressbar" aria-valuenow="50" aria-valuemin="0" aria-valuemax="100"></div></div></li>
+					</ul>
+				</div>
+			</div>
 
+			<div class="right_wrap col-md-9 col-xs-12">
+				<div class="about row">
+					<span class="about_me col-md-6 col-md-offset-4">About me</span>
+					<span class="about_dec col-md-7 col-md-offset-4">本人具有较强的自学能力和自律能力，对互联网开发具有浓厚的兴趣；在校期间，通过自学，基本掌握了web前端开发相关技术；性格方面待人真诚，积极乐观，做事认真负责，追求完美；热爱生活，爱好爬山、骑行等越野类运动；真诚希望能加入贵公司学习工作，相信自己一定不会让贵公司失望。</span>
+				</div>
+				<div class="education">
+					<div class="edu_title row"><img class="col-md-4 col-md-offset-3" src="images/education.png" alt="学习历程"><span class="stude_title text_color_y col-md-2">学习历程</span></div>
+					<ul class="row col-md-12">
+						<li class="col-md-12 front_list">
+							<div class="col-md-2 bar_year_stu">
+								<span class="bar_y"></span>
+								<span class="year col-md-12">2014-2016</span>
+								<span class="front_stu col-md-12">前端学习</span>
+							</div>
+							<span class="description col-md-8 col-md-offset-2">在此期间，主要通过看书，利用Google等方法，进行Web前端开发知识的学习，通过关注前端大牛的技术博客进行辅助学习，基本掌握了前端HTML5、CSS3、Javascript、Jquery等技术及相关开发者工具；坚持写代码，来验证和加深对所学知识的理解，同时培养自己的代码感。</span>
+						</li>
+						<li class="col-md-12 front_list">
+							<div class="col-md-2 bar_year_stu">
+								<span class="bar_y"></span>
+								<span class="year col-md-12">2016-2017</span>
+								<span class="front_stu col-md-12">后端学习</span>
+							</div>
+							<span class="description col-md-8 col-md-offset-2">继续巩固加强前端方面的知识；并开始对Web后端开发语言PHP及Mysql数据库进行学习，熟练掌握了PHP面向对象编程及Mysql常用命令；通过后端开发相关技术的学习，对HTTP有了更深的理解；并对Git常用命令熟练掌握。</span>
+						</li>
+					</ul>
+				</div>
+				<div class="project">
+					<div class="edu_title row"><img class="col-md-4 col-md-offset-3" src="images/work.png" alt="项目经历"><span class="stude_title text_color_y col-md-2">项目经历</span></div>
+					<ul class="row col-md-12">
+						<li class="col-md-12 front_list">
+							<div class="col-md-2 bar_year_stu">
+								<span class="bar_y"></span>
+								<span class="year col-md-12">2015-2016</span>
+								<span class="front_stu col-md-12">个人博客</span>
+							</div>
+							<span class="description col-md-8 col-md-offset-2">基于Wordpress搭建的个人博客，用于对所学知识的总结，通过对博客的搭建，使我对网站部署有了更直观的认识。</span>
+						</li>
+						<li class="col-md-12 front_list">
+							<div class="col-md-2 bar_year_stu">
+								<span class="bar_y"></span>
+								<span class="year col-md-12">2016-2017</span>
+								<span class="front_stu col-md-12">微信公众号</span>
+							</div>
+							<span class="description col-md-8 col-md-offset-2">采用PHP作为后台开发语言，通过调用部分API，实现了公众号智能聊天、在线翻译、天气预报等功能、使我对微信开发有了更深刻的理解。</span>
+						</li>
+					</ul>
+				</div>
+			</div>
+
+			<footer id="foot">&copy; 田勇 2017</footer>
+		</div>
+	</div>
 	<script src="js/jquery-1.11.1.min.js"></script>
 	<script src="bootstrap-3.3.7-dist/js/bootstrap.min.js"></script>
 	<script src="js/index.js"></script>

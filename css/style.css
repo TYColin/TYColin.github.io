@@ -1,0 +1,189 @@
+
+/*全局定义*/
+body{
+	background: black;
+}
+ul li{
+	list-style: none;
+}
+
+.text_color_y{
+	color: #F59618;
+}
+.text_color_w{
+	color: #FFFFFF;
+}
+.description{
+	letter-spacing: 0.1em;
+	padding-left: 26px;
+	padding-right: 26px;
+}
+
+#name{
+	font-size: 20px;
+}
+#foot{
+    background-color: #0B0C15;
+    height: 30px;
+    overflow: hidden;
+    clear: both;
+    text-align: center;
+    padding-top: 5px;
+}
+@media(min-width: 992px){
+	.bar_y{
+		display: block;
+	}
+	.education{
+		height: 380px;
+	}
+	.project{
+		height: 375px;
+	}
+	.container{
+	width: 70%;
+	}
+}
+/*左边*/
+.left_wrap{
+/*	width: 25%;*/
+}
+.head_information{
+	background-color: #10121E;
+	height: 300px;
+	text-align: center;
+}
+.head_information span{
+	padding-top: 10px;
+	letter-spacing: 0.1em;
+}
+.head_information img{
+	width: 160px;
+	height: 165px;
+	margin: 40px auto 0px;
+
+}
+.personal_information{
+	background-color: #373239;
+}
+.personal_information ul{
+	margin: 20px 0px 30px 0px;
+}
+.personal_information ul li{
+	padding-top: 15px;
+}
+.personal_information ul li span{
+	display: block;
+}
+.skills{
+	background-color: #10121E;
+}
+.skills ul li{
+	color: #fff;
+}
+.skill_title{
+	margin: 35px 0px 20px 40px;
+	display: block;
+}
+.progress{
+	height: 10px;
+	width: 90%;
+}
+.progress-bar{
+	background-color: #F59618;
+}
+.html_skill{
+	width: 80%;
+}
+.js_skill{
+	width: 70%;
+}
+.bs_skill{
+	width: 50%;
+}
+.ps_skill{
+	width: 80%;
+}
+.php_skill{
+	width: 60%;
+}
+.mysql_skill{
+	width: 50%;
+}
+/*右边*/
+.right_wrap{
+	background: #fff;
+/*	width: 75%;*/
+	padding: 0px;
+}
+.about{
+	height: 300px;
+}
+.about span{
+	display: block;
+
+}
+/*@media(min-width: 768px){
+	.about span{
+		padding-left: 35% !important;
+		padding-right: 8% !important;
+	}
+}*/
+.about_me{
+	font-size: 4em;
+    font-weight: bold;
+    letter-spacing: -0.03em;
+    color: #F59618;
+    font-family: "Times New Roman",Georgia,Serif;
+	margin-top: 8%;
+	margin-bottom: 2%;
+}
+.about_dec{
+	letter-spacing: 0.1em;
+}
+.education{
+	background-color: #EFEFEF;
+	
+}
+.edu_title{
+	padding-top: 30px;
+}
+.edu_title img{
+	width: 85px;
+	height: 55px;
+	/*margin-left: 25%;
+	margin-top: 8%;*/
+}
+.stude_title{
+	font-size: 1.5em;
+    font-weight: bold;
+    padding: 0px;
+    margin-top: 13px;
+    letter-spacing: 0.1em;
+}
+.front_list{
+	margin-top: 30px;
+	padding: 0px;
+}
+.bar_year_stu{
+	padding: 0;
+}
+.bar_y{
+	background-color: #F59618;
+    width: 8%;
+    height: 40px;
+   
+}
+.year{
+    padding: 0;
+    margin-left: 15%;
+    margin-top: -40px;
+    color: #F59618;
+    font-size: 1.3em;
+}
+.front_stu{
+	padding: 0;
+	margin-left: 15%;
+    margin-top: -16px;
+    font-weight: bold;
+}
